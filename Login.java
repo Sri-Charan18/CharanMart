@@ -6,7 +6,7 @@ public class Login {
     public static void main(String[] args) {
         // pre-added users (email -> password)
         users.put("admin@shop.com", "admin123");
-        users.put("sneha@shop.com", "sneha123");
+        users.put("charan@shop.com", "charan123");
 
         Scanner sc = new Scanner(System.in);
 
