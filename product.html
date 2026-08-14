@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sneha Mart - Sports Products</title>
+    <title>Charan Mart - Men's Clothing</title>
 
     <style>
         * {
@@ -101,7 +102,9 @@
             padding: 20px;
             text-align: center;
             border-radius: 12px;
+
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
             transition: transform 0.3s;
         }
 
@@ -111,7 +114,7 @@
 
         .product img {
             width: 100%;
-            height: 180px;
+            height: 220px;
             object-fit: contain;
         }
 
@@ -130,13 +133,18 @@
             color: green !important;
         }
 
+        /* Add To Cart Button */
         .cart {
             background-color: #007bff;
             color: white;
             border: none;
+
             padding: 10px 20px;
+
             border-radius: 5px;
+
             cursor: pointer;
+
             font-size: 15px;
         }
 
@@ -148,8 +156,11 @@
         footer {
             background-color: #111;
             color: white;
+
             text-align: center;
+
             padding: 20px;
+
             margin-top: 40px;
         }
 
@@ -158,6 +169,10 @@
 
             header {
                 padding: 15px 20px;
+            }
+
+            header h1 {
+                font-size: 23px;
             }
 
             .welcome img {
@@ -175,12 +190,14 @@
     </style>
 </head>
 
+
 <body>
 
     <!-- HEADER -->
+
     <header>
 
-        <h1>Sneha Mart</h1>
+        <h1>Charan Mart</h1>
 
         <button class="logout" onclick="logout()">
             Logout
@@ -190,146 +207,206 @@
 
 
     <!-- WELCOME SECTION -->
+
     <section class="welcome">
 
-        <!-- Put sports-banner.jpg in the same folder -->
-        <img src="sports-banner.jpg" alt="Sneha Mart Sports">
+        <!-- Replace this image with your own banner -->
+        <img
+            src="mens-banner.jpg"
+            alt="Charan Mart Men's Fashion">
 
-        <h2>Welcome to Sneha Mart</h2>
+        <h2>Welcome to Charan Mart</h2>
 
         <p>
-            Your one-stop destination for quality sports and fitness products
+            Your one-stop destination for stylish and comfortable men's clothing
         </p>
 
     </section>
 
 
-    <!-- PRODUCTS -->
+    <!-- PRODUCTS SECTION -->
+
     <section class="products-section">
 
-        <h2>Our Sports Products</h2>
+        <h2>Men's Clothing Collection</h2>
+
 
         <div class="products">
 
 
             <!-- PRODUCT 1 -->
+
             <div class="product">
 
                 <img
-                    src="https://via.placeholder.com/250x180?text=Football"
-                    alt="Football">
+                    src="https://via.placeholder.com/250x220?text=Formal+Shirt"
+                    alt="Formal Shirt">
 
-                <h3>Football</h3>
+                <h3>Formal Shirt</h3>
 
-                <p>Professional quality football</p>
+                <p>
+                    Comfortable everyday formal shirt
+                </p>
 
-                <p class="price">₹799</p>
+                <p class="price">
+                    ₹799
+                </p>
 
-                <button class="cart" onclick="addToCart('Football')">
+                <button
+                    class="cart"
+                    onclick="addToCart('Formal Shirt')">
+
                     Add to Cart
+
                 </button>
 
             </div>
 
 
             <!-- PRODUCT 2 -->
+
             <div class="product">
 
                 <img
-                    src="https://via.placeholder.com/250x180?text=Cricket+Bat"
-                    alt="Cricket Bat">
+                    src="https://via.placeholder.com/250x220?text=Casual+Shirt"
+                    alt="Casual Shirt">
 
-                <h3>Cricket Bat</h3>
+                <h3>Casual Shirt</h3>
 
-                <p>Premium cricket bat</p>
+                <p>
+                    Stylish cotton casual shirt
+                </p>
 
-                <p class="price">₹1,499</p>
+                <p class="price">
+                    ₹699
+                </p>
 
-                <button class="cart" onclick="addToCart('Cricket Bat')">
+                <button
+                    class="cart"
+                    onclick="addToCart('Casual Shirt')">
+
                     Add to Cart
+
                 </button>
 
             </div>
 
 
             <!-- PRODUCT 3 -->
+
             <div class="product">
 
                 <img
-                    src="https://via.placeholder.com/250x180?text=Basketball"
-                    alt="Basketball">
+                    src="https://via.placeholder.com/250x220?text=Round+Neck+T-Shirt"
+                    alt="Round Neck T-Shirt">
 
-                <h3>Basketball</h3>
+                <h3>Round Neck T-Shirt</h3>
 
-                <p>Official size basketball</p>
+                <p>
+                    Soft and comfortable cotton T-shirt
+                </p>
 
-                <p class="price">₹899</p>
+                <p class="price">
+                    ₹499
+                </p>
 
-                <button class="cart" onclick="addToCart('Basketball')">
+                <button
+                    class="cart"
+                    onclick="addToCart('Round Neck T-Shirt')">
+
                     Add to Cart
+
                 </button>
 
             </div>
 
 
             <!-- PRODUCT 4 -->
+
             <div class="product">
 
                 <img
-                    src="https://via.placeholder.com/250x180?text=Gym+Gloves"
-                    alt="Gym Gloves">
+                    src="https://via.placeholder.com/250x220?text=Polo+T-Shirt"
+                    alt="Polo T-Shirt">
 
-                <h3>Gym Gloves</h3>
+                <h3>Polo T-Shirt</h3>
 
-                <p>Comfortable workout gloves</p>
+                <p>
+                    Classic polo T-shirt for everyday wear
+                </p>
 
-                <p class="price">₹499</p>
+                <p class="price">
+                    ₹599
+                </p>
 
-                <button class="cart" onclick="addToCart('Gym Gloves')">
+                <button
+                    class="cart"
+                    onclick="addToCart('Polo T-Shirt')">
+
                     Add to Cart
+
                 </button>
 
             </div>
 
 
             <!-- PRODUCT 5 -->
+
             <div class="product">
 
                 <img
-                    src="https://via.placeholder.com/250x180?text=Dumbbells"
-                    alt="Dumbbells">
+                    src="https://via.placeholder.com/250x220?text=Regular+Fit+Pants"
+                    alt="Regular Fit Pants">
 
-                <h3>Dumbbells</h3>
+                <h3>Regular Fit Pants</h3>
 
-                <p>5kg fitness dumbbells</p>
+                <p>
+                    Comfortable regular-fit men's pants
+                </p>
 
-                <p class="price">₹1,299</p>
+                <p class="price">
+                    ₹999
+                </p>
 
-                <button class="cart" onclick="addToCart('Dumbbells')">
+                <button
+                    class="cart"
+                    onclick="addToCart('Regular Fit Pants')">
+
                     Add to Cart
+
                 </button>
 
             </div>
 
 
             <!-- PRODUCT 6 -->
+
             <div class="product">
 
                 <img
-                    src="https://via.placeholder.com/250x180?text=Badminton"
-                    alt="Badminton Racket">
+                    src="https://via.placeholder.com/250x220?text=Cotton+Pants"
+                    alt="Casual Cotton Pants">
 
-                <h3>Badminton Racket</h3>
+                <h3>Casual Cotton Pants</h3>
 
-                <p>Lightweight badminton racket</p>
+                <p>
+                    Lightweight cotton pants for daily wear
+                </p>
 
-                <p class="price">₹999</p>
+                <p class="price">
+                    ₹899
+                </p>
 
-                <button class="cart" onclick="addToCart('Badminton Racket')">
+                <button
+                    class="cart"
+                    onclick="addToCart('Casual Cotton Pants')">
+
                     Add to Cart
+
                 </button>
 
             </div>
+
 
         </div>
 
@@ -337,14 +414,18 @@
 
 
     <!-- FOOTER -->
+
     <footer>
 
-        <p>© 2026 Sneha Mart | Sports & Fitness Store</p>
+        <p>
+            © 2026 Charan Mart | Men's Clothing Store
+        </p>
 
     </footer>
 
 
     <!-- JAVASCRIPT -->
+
     <script>
 
         function addToCart(productName) {
@@ -361,6 +442,7 @@
         }
 
     </script>
+
 
 </body>
 
